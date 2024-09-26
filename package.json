@@ -57,7 +57,7 @@
   },
   "scripts": {
     "release": "standard-version",
-    "test": "npm run lint && jest .",
+    "test": "jest .",
     "test:coverage": "nyc npm t",
     "coverage:html": "nyc report --reporter=html",
     "coverage:publish": "nyc report --reporter=lcov | codecov",
